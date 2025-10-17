@@ -3,7 +3,7 @@ const http = require('http')
 
 function requestController(req, res) {
     // Establecer el tipo de contenido como HTML
-    res.writeHead(200, { 'Content-Type': 'text/html' })
+    res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' })
 
     // Enviar una vista sencilla al navegador
     res.write(`
